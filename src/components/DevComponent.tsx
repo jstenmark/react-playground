@@ -7,7 +7,7 @@ const DevComponent: React.FC = () => {
   const gameState = useAppSelector(state => state.game)
   const horseState = useAppSelector(state => state.horse)
 
-  if (process.env.REACT_APP_DEV_COMPONENT === 'true') return null
+  if (process.env.REACT_APP_DEV_COMPONENT !== 'true') return null
 
   return (
     <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 2 }}>

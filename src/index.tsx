@@ -5,24 +5,19 @@ import App from './App'
 import { ThemeProvider, createTheme, CssBaseline } from '@mui/material'
 
 const theme = createTheme({
-  //typography: {
-  //  fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif',
-  //},
-  //palette: {
-  //  primary: {
-  //    main: '#1976d2',
-  //  },
-  //},
+  typography: {
+    fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif',
+  },
   components: {
     MuiCssBaseline: {
-      //styleOverrides: {
-      //  body: {
-      //    margin: 0,
-      //    padding: 0,
-      //    boxSizing: 'border-box',
-      //    fontSmoothing: 'antialiased',
-      //  },
-      //},
+      styleOverrides: {
+        body: {
+          margin: 0,
+          padding: 0,
+          boxSizing: 'border-box',
+          fontSmoothing: 'antialiased',
+        },
+      },
     },
   },
 })

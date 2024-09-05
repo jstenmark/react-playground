@@ -18,7 +18,6 @@ const initialState: GameState = {
   toggledGameId: null,
 }
 
-// Async thunk to fetch game details
 export const fetchGameDetails = createAsyncThunk(
   'games/fetchGameDetails',
   async (gameId: string): Promise<GameResponse> => {
