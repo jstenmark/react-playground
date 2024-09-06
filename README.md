@@ -1,6 +1,14 @@
 # Horse betting frontend
 
 
+## Main deps
+- react
+- redux
+- mui
+- commit hooks
+- pre-commit-hook-ish
+- prettier
+
 
 ## How to run
 
