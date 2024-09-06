@@ -12,8 +12,6 @@ export async function getProductDetails(betType: string): Promise<ProductRespons
 
   const data: ProductResponse = await response.json()
 
-  console.log('data', data)
-
   return data
 }
 
